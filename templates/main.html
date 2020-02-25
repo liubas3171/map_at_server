@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Map with your comprades</title>
+    <style type="text/css">
+   div {
+    position: absolute;
+    top: 20%;
+    left: 33%;
+    width: 33%; /* Ширина */
+    height: 20%;
+    padding: 20px; /* Поля */
+    -moz-box-sizing: border-box; /* Для Firefox */
+    -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+    box-sizing: border-box; /* Для IE и Opera */
+   }
+  </style>
+</head>
+<body BACKGROUND="static/back.jpg" text="#fffaf0">
+<section id="main">
+    <div class="inner">
+        <section id="one" class="wrapper style1">
+                   <font size="6">
+                       <b>
+                       <p>Enter Twitter account:</p>
+                       </b>
+                   </font>
+            <form method="post" action="map">
+                <input type="text" name="account">
+                <input type="submit" value="start">
+            </form>
+        </section>
+    </div>
+</section>
+</body>
+</html>
